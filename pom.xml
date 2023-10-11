@@ -27,19 +27,7 @@
             <version>3.23.1</version>
         </dependency>
     </dependencies>
-        <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>ip-172-31-24-31.ec2.internal-releases</name>
-        <url>http://54.209.165.111:8081/artifactory/java-snapshot</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>ip-172-31-24-31.ec2.internal-snapshots</name>
-        <url>http://54.209.165.111:8081/artifactory/java-snapshot</url>
-    </snapshotRepository>
-</distributionManagement>
-
+       
     <!-- This blob of configuration tells Maven to make the jar executable. You can run it with:
     mvn clean package
     java -jar target/javaparser-maven-sample-1.0-SNAPSHOT-shaded.jar
